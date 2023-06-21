@@ -1,0 +1,168 @@
+.property-tab .nav-tabs > li.active > a,
+.property-tab .nav-tabs > li.active > a:focus,
+.property-tab .nav-tabs > li.active > a:hover {
+    background-color: rgb(248, 157, 10) !important;
+}
+
+.header-login {
+    background: white !important;
+}
+#header_top_3 .get-tuch i {
+    color:rgb(248, 157, 10) !important;
+}
+.pushmenu .push_nav .dropdown-menu li > a:hover {
+    background: rgb(248, 157, 10) !important;
+}
+#nav_slider .item .nav_tag.yellow {
+    background: rgb(248, 157, 10) !important;
+}
+#nav_slider .owl-next:hover,
+#nav_slider .owl-prev:hover {
+    background: rgb(248, 157, 10) !important;
+}
+#nav_slider .item {
+    background: rgb(248, 157, 10) !important;
+}
+.owl-controls .owl-page.active span,
+.owl-controls.clickable .owl-page:hover span {
+    background: rgb(248, 157, 10) !important;
+}
+a:hover {
+    color: rgb(248, 157, 10) !important;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+    background-color:rgb(248, 157, 10) !important;
+    color: black !important;
+}
+.line_6 {
+    background:rgb(248, 157, 10) !important;
+}
+a:hover,
+a:focus {
+    background-color: white !important;
+}
+.nav-tabs > li > a > .fa{
+    color: rgb(248, 157, 10) !important;
+}
+#services-nin .nav-tabs > li.active > a, 
+#services-nin .nav-tabs > li > a:focus, 
+#services-nin .nav-tabs > li > a:hover,
+#services-nin .nav-tabs .dropdown-menu > li.active > a,
+#services-nin .nav-tabs .dropdown-menu > li > a:focus,
+#services-nin .nav-tabs .dropdown-menu > li > a:hover {
+    background-color: rgb(248, 157, 10) !important;
+}
+.link-arrow:hover::after {
+    color:  rgb(248, 157, 10) !important;
+}
+.proerty_content .favroute ul li a:hover {
+    background:  rgb(248, 157, 10) !important;
+}
+nav.navbar.bootsnav ul.nav > li > a:hover,
+nav.navbar.bootsnav ul.nav > li > a:focus,
+nav.navbar.bootsnav ul.nav > li.active > a,
+nav.navbar.bootsnav ul.nav > li.dropdown > .dropdown-toggle:hover,
+nav.navbar.bootsnav ul.nav > li.dropdown.on > .dropdown-toggle,
+nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover,
+nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:focus {
+    color: rgb(248, 157, 10) !important;
+}
+.line1,
+.line2 {
+    background-color:rgb(248, 157, 10) !important;
+}
+.line1,
+.line2 {
+    background-color: rgb(248, 157, 10) !important;
+}
+.btn_fill {
+    background:rgb(248, 157, 10) !important;
+}
+.button {} .page-title a:hover {
+    border-bottom: 1px solid rgb(248, 157, 10) !important;
+}
+#main-slider .prev:hover,
+#main-slider .next:hover {
+    background-color: rgb(248, 157, 10)!important;
+    border: 1px solid rgb(248, 157, 10)!important;
+}
+
+.page-main-section {
+    background: url("images/1.png");
+    position: relative;
+    z-index: 1;
+    background-repeat: no-repeat;
+    
+}
+
+#nav_slider .owl-prev:hover,
+#nav_slider .owl-next:hover,
+#listing_slider .owl-next:hover,
+#listing_slider .owl-prev:hover,
+#property-listing-slider .owl-prev:hover,
+#property-listing-slider .owl-next:hover,
+#property-2-slider .owl-prev:hover,
+#property-2-slider .owl-next:hover,
+#property-d-1 .owl-prev:hover,
+#property-d-1 .owl-next:hover,
+#property-1-slider .owl-prev:hover,
+#property-1-slider .owl-next:hover,
+#agent-2-slider .owl-prev:hover,
+#agent-2-slider .owl-next:hover,
+#agent-3-slider .owl-next:hover,
+#agent-3-slider .owl-next:focus,
+#agent-3-slider .owl-prev:hover,
+#agent-3-slider .owl-prev:focus {
+    background: rgb(248, 157, 10)!important;
+}
+#listing_slider .owl-next:hover,
+#listing_slider .owl-prev:hover,
+#property-listing-slider .owl-prev:hover,
+#property-listing-slider .owl-next:hover,
+#property-2-slider .owl-prev:hover,
+#property-2-slider .owl-next:hover,
+#property-d-1 .owl-prev:hover,
+#property-d-1 .owl-next:hover,
+#property-1-slider .owl-prev:hover,
+#property-1-slider .owl-next:hover,
+#agent-2-slider .owl-prev:hover,
+#agent-2-slider .owl-next:hover {
+    border-color: rgb(248, 157, 10)!important;
+}
+
+.page-main-section,
+.info_section {
+    background-size: 50%;
+    width:100%;
+    background-attachment: fixed !important;
+    background-position: center center;
+}
+h1{
+    color:white !important;
+}
+.block-menu li a.active,
+.block-menu li a:hover {
+    color:white !important;
+  background-color: rgb(248, 157, 10) !important;
+  border: 1px solid  rgb(248, 157, 10) !important;
+  border-right-color:  rgb(248, 157, 10) !important;
+}
+
+.property_meta {
+    width: 100%;
+    padding: 3px;
+    text-align: left !important;
+    position: relative;
+}
+.property_meta span {
+    color: #fff;
+    display: inline-block;
+    font-size: 30px !important;
+    padding: 3px 10px;
+}
+.image-round span {
+    background: rgb(248, 157, 10) !important;
+  }

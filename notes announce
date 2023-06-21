@@ -1,0 +1,115 @@
+<section class="timeline padding"> 
+  <div class="container">
+<div class="col-md-12 bottom20" id="display">
+       <h2 class="text-uppercase" style="color:white">Latest <span  style="color:rgb(248, 157, 10)">Announcement</span></h2>
+  
+   
+     </div></div>
+<div class="container">
+
+   <?php
+
+      $con=new mysqli("localhost","root","","employees");
+      if($con->connect_error){
+          echo'Connect Failed '.$con->connect_error;
+      }else{
+       $sql2="SELECT announce.Date,announce.Title,announce.Description,staff.Name,announce.dedicate FROM announce JOIN staff on staff.StaffId=announce.StaffId WHERE announce.id=(SELECT max(id) FROM announce) ";
+          $res2=$con->query($sql2);
+          if($res2->num_rows > 0){    while($row=$res2->fetch_assoc()){       
+           $date=$row['Date'];
+           $title=$row['Title'];
+           $desc=$row['Description']; $d=$row['dedicate'];
+           $name=$row['Name'];?>
+
+   <div class="timeline-item"  id="an1">
+
+     <div class="timeline-img"></div>
+  
+     <div class="timeline-content timeline-card js--fadeInLeft">
+       <div class="timeline-img-header">
+       <h2><?php echo $title?></h2>
+       </div>
+
+       <div class="date"><?php echo $date?></div> 
+      
+    
+           <ul style="margin-left:20px">
+             <li class="left"><i class="icon-profile-male" aria-hidden="true"></i> By : <?php echo $name?></li>
+        <li class="left" style="margin-left:25px"> To : <?php echo $d ?></li>
+           </ul>
+      
+       <p class="left"><?php echo $desc?></p><?php }}}?>
+   
+     </div>
+   </div>   
+         
+
+   
+
+   <?php
+      $con=new mysqli("localhost","root","","employees");
+      if($con->connect_error){
+          echo'Connect Failed '.$con->connect_error;
+      }else{
+       $sql2="SELECT * 
+          FROM announce WHERE id=(SELECT max(id)-1 FROM announce)";
+          $res2=$con->query($sql2);
+          if($res2->num_rows > 0){    while($row=$res2->fetch_assoc()){       
+           $date=$row['Date'];
+           $title=$row['Title'];
+           $desc=$row['Description'];?>
+   <div class="timeline-item" id="an2">
+
+     <div class="timeline-img"></div>
+
+     <div class="timeline-content timeline-card js--fadeInRight">
+       <div class="timeline-img-header">
+         <h2><?php echo $title?></h2>
+       </div>
+       <div class="date"><?php echo $date?></div>
+       
+       <ul style="margin-left:20px">
+             <li class="left"><i class="icon-profile-male" aria-hidden="true"></i> By : <?php echo $name?></li><li class="left" style="margin-left:25px"> To : <?php echo $d ?></li>
+     
+           </ul>
+          
+       <p><?php echo $desc?></p><?php }}}?>     
+     </div>
+   </div>  
+          
+
+
+   <?php
+      $con=new mysqli("localhost","root","","employees");
+      if($con->connect_error){
+          echo'Connect Failed '.$con->connect_error;
+      }else{
+       $sql2="SELECT * 
+          FROM announce WHERE id=(SELECT max(id)-2 FROM announce)";
+          $res2=$con->query($sql2);
+          if($res2->num_rows > 0){    while($row=$res2->fetch_assoc()){       
+           $date=$row['Date'];
+           $title=$row['Title'];
+           $desc=$row['Description'];?>
+   <div class="timeline-item" id="an3">
+
+     <div class="timeline-img"></div>
+
+     <div class="timeline-content timeline-card js--fadeInRight">
+       <div class="timeline-img-header">
+         <h2><?php echo $title?></h2>
+       </div>
+       <div class="date"><?php echo $date?></div>
+       <ul style="margin-left:20px">
+             <li class="left"><i class="icon-profile-male" aria-hidden="true"></i> By : <?php echo $name?></li><li class="left" style="margin-left:25px"> To : <?php echo $d ?></li>
+     
+           </ul>
+       <p><?php echo $desc?></p><?php }}}?> 
+     </div>
+   </div>  
+
+
+
+
+ </div>
+</section>
